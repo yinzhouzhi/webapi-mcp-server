@@ -11,6 +11,23 @@
 - **结果路径** - 支持从嵌套响应中提取特定数据
 - **批量加载** - 支持从文件或目录批量加载API定义
 
+## Cursor或者其他MCP客户端引入方式
+```bash
+{
+  "mcpServers": {
+
+    "webapi-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@yinzhouzhi/webapi-mcp-server",
+        "start"
+      ]
+    }
+  }
+}
+```
+
 ## 安装
 
 ```bash
